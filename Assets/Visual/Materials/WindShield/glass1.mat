@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: glass1
+  m_Shader: {fileID: 4800000, guid: f089d0e6d3fe5164ba1344a60be554d6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4D018430:
+        m_Texture: {fileID: 2800000, guid: 74bf156b6c68b9b479f42b4b0b4ac7db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_4D018430_WindShieldTextures:
+        m_Texture: {fileID: 2800000, guid: 74bf156b6c68b9b479f42b4b0b4ac7db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindShieldTextures:
+        m_Texture: {fileID: 2800000, guid: 74bf156b6c68b9b479f42b4b0b4ac7db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1C081976: 0
+    - Vector1_F4BCDF23: 60
+    m_Colors:
+    - Color_510A4729: {r: 1, g: 1, b: 1, a: 0}

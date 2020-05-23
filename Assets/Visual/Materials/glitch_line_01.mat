@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: glitch_line_01
+  m_Shader: {fileID: 4800000, guid: fda5ca5ba483c324ea6c9a9a3466c7e0, type: 3}
+  m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - DistortionVectors
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_930EE9E7: 0
+    - Vector1_D58C9958: 2
+    m_Colors:
+    - Color_2C22F8FB: {r: 0, g: 710.7765, b: 766.9961, a: 0}
+    - Color_C8095C7B: {r: 766.9961, g: 0, b: 526.0549, a: 0}
+    - Vector2_7D55E43E: {r: 2, g: 0, b: 0, a: 0}

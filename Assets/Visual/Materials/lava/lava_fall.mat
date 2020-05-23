@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: lava_fall
+  m_Shader: {fileID: 4800000, guid: 493ad6ba7f295f84db7937da09b9219d, type: 3}
+  m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - DistortionVectors
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_46F3EDAA_Texture:
+        m_Texture: {fileID: 2800000, guid: e2e901484e42b7842a4f8efefbfeaf5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_B007B969_Texture:
+        m_Texture: {fileID: 2800000, guid: 898ff691a9a2f304090075374c2cd4c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_F28AEE6A_Texture:
+        m_Texture: {fileID: 2800000, guid: e2e901484e42b7842a4f8efefbfeaf5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_D0BD7170_Out:
+        m_Texture: {fileID: 2800000, guid: e2e901484e42b7842a4f8efefbfeaf5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_930EE9E7: 0
+    - Vector1_D58C9958: 2
+    m_Colors:
+    - Color_2C22F8FB: {r: 0, g: 710.7765, b: 766.9961, a: 0}
+    - Color_C8095C7B: {r: 766.9961, g: 0, b: 526.0549, a: 0}
+    - Vector2_3FBF9C97: {r: -0.5, g: 0, b: 0, a: 0}
+    - Vector2_7D55E43E: {r: 2, g: 0, b: 0, a: 0}
